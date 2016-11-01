@@ -78,7 +78,8 @@ gulp.task('lint', function () {
         require: true,
         __dirname: true,
         document: true,
-        process: true
+        process: true,
+        define: true
       }
     }))
     // Outputs the results to the console
